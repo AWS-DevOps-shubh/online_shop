@@ -38,6 +38,6 @@ COPY --from=DevHack /DevOpsHackthon/dist ./dist
 # Run as a non root user for security 
 USER hackthon1
 
-EXPOSE 4000
+EXPOSE 5000
 
-CMD ["serve", "-s", "dist", "-l", "4000"]
+CMD ["serve", "-s", "dist", "-l", "5000"]
